@@ -46,3 +46,14 @@ After setting up the Vault, you can start the NestJS application by running:
 
 ```bash
 npm run start:dev
+```
+
+### Add environment variables
+In order to start working with the API, you need to add the following environment variables to your `.env` file:
+```
+VAULT_TOKEN=myroot
+VAULT_ADDRESS=http://localhost:8200
+VAULT_PREFIX_PATH=secret/data/demo_api
+```
+
+In case of changing values, you may also need to update the docker-compose.yml file.
