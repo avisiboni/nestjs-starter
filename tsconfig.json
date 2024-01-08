@@ -11,6 +11,16 @@
     "outDir": "./dist",
     "baseUrl": "./",
     "incremental": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "paths": {
+      "@cache/cache-manager": [
+        "libs/cache-manager/src",
+        "libs/cache-manager/src"
+      ],
+      "@cache/cache-manager/*": [
+        "libs/cache-manager/src/*",
+        "libs/cache-manager/src/*"
+      ]
+    }
   }
 }
