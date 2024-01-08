@@ -57,3 +57,20 @@ VAULT_PREFIX_PATH=secret/data/demo_api
 ```
 
 In case of changing values, you may also need to update the docker-compose.yml file.
+
+#### Next steps
+ - Add support for Redis with fallback to in-memory cache.
+ - Base schema with mini repository pattern.
+ - Add support for Swagger.
+ - Add support for unit testing.
+ - Add support for integration testing.
+ - Add support for global exception handling.
+ - Add support for custom exceptions.
+ - Add support for logging.
+ - Add support for DTOs to entities mapping.
+ - Pulling core to a separate package, such as the Redis module, Database access, etc.
+ - Add support for Docker. 
+ - Add eslint rules.
+ - Add prettier rules.
+ - Add support for Git Husky.
+ - 
